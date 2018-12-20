@@ -52,26 +52,21 @@ for index, line in enumerate(contents):
     else:                               # Else line states wake or asleep
         line[1] = guardnum              # Add guard # to the line
         if line[2] == 1:                # If guard fell asleep
-            timeasleep = contents[index+1][0] - contents[index][0]
-            if guardnum in guardlog:     # If guard # is already in guard log dictionary
-                guardlog[guardnum] += timeasleep
-            else:
-                guardlog[guardnum] = timeasleep
+            if guardnum not in guardlog:
+                guardlog[guardnum] = [0] * 60
+            m = contents[index][0] % 60
+            n = contents[index+1][0] % 60
+            guardlog[guardnum][m:n] = [x+1 for x in guardlog[guardnum][m:n]]
 
 # Find guard with most sleep
-(maxguard, maxasleep) = max(guardlog.items(), key=operator.itemgetter(1))
+maxguard = 0
+minutemax = 0
+maxtimes = 0
+for m in range(60):
+    for guard in guardlog:
+        if guardlog[guard][m] > maxtimes:
+            maxtimes = guardlog[guard][m]
+            minutemax = m
+            maxguard = guard
 
-minutes = [0] * 60
-for index, line in enumerate(contents):
-    if line[1] == maxguard and line[2] == 1:
-        sleepminute = contents[index][0] % 60
-        wakeminute = contents[index+1][0] % 60
-        minutes[sleepminute:wakeminute] = [x+1 for x in minutes[sleepminute:wakeminute]]
-
-maxtimes = max(minutes)
-for index, numtimes in enumerate(minutes):
-    if numtimes == maxtimes:
-        m = index
-        break
-
-print(maxguard * m)
+print(maxguard * minutemax)

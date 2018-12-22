@@ -1,0 +1,3 @@
+fpath = 'input.txt'
+
+contents =

@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eda16873-f1ca-4bc4-be16-008cfa2d82fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2018-9/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018-9/main1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2018-9/main2-v2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2018-9/main2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2018-8/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2018-8/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2018-9/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2018-9/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2018-9/main1.py" beforeDir="false" afterPath="$PROJECT_DIR$/2018-9/main1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,17 +19,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2018-9/main1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+            <state relative-caret-position="340">
+              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2018-9/main2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2018-8/input.txt">
+        <entry file="file://$PROJECT_DIR$/2018-9/main2-v2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="46" lean-forward="true" selection-start-column="46" selection-end-column="46" />
+            <state relative-caret-position="356">
+              <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -72,8 +82,12 @@
         <option value="$PROJECT_DIR$/2018-8/main1.py" />
         <option value="$PROJECT_DIR$/2018-8/main1-v2.py" />
         <option value="$PROJECT_DIR$/2018-8/main2.py" />
-        <option value="$PROJECT_DIR$/2018-9/main1.py" />
         <option value="$PROJECT_DIR$/2018-8/input.txt" />
+        <option value="$PROJECT_DIR$/2018-9/input.txt" />
+        <option value="$PROJECT_DIR$/2018-9/main1.py" />
+        <option value="$PROJECT_DIR$/2018-9/output.txt" />
+        <option value="$PROJECT_DIR$/2018-9/main2.py" />
+        <option value="$PROJECT_DIR$/2018-9/main2-v2.py" />
       </list>
     </option>
   </component>
@@ -89,6 +103,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -105,7 +120,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -117,6 +131,7 @@
       <recent name="D:\Python\AdventOfCode" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Python\AdventOfCode\2018-9" />
       <recent name="C:\Python\AdventOfCode\2018-8" />
       <recent name="D:\Python\AdventOfCode\2018-6" />
       <recent name="D:\Python\AdventOfCode\2017-3" />
@@ -135,8 +150,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main2 (2)">
-    <configuration name="main1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.main2-v2">
+    <configuration name="main1 (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AdventOfCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -144,11 +159,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2018-7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2018-9" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2018-7/main1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2018-9/main1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -199,27 +214,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="AdventOfCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2018-7" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2018-7/main2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="main2 (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AdventOfCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -241,6 +235,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main2-v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AdventOfCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2018-9" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2018-9/main2-v2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AdventOfCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -249,11 +264,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2018-6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2018-9" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2018-6/main2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2018-9/main2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -264,19 +279,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.main1" />
-      <item itemvalue="Python.main2" />
-      <item itemvalue="Python.main1 (1)" />
-      <item itemvalue="Python.main2 (1)" />
       <item itemvalue="Python.main1-v2" />
       <item itemvalue="Python.main2 (2)" />
+      <item itemvalue="Python.main1 (2)" />
+      <item itemvalue="Python.main2" />
+      <item itemvalue="Python.main2-v2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main2-v2" />
+        <item itemvalue="Python.main2" />
+        <item itemvalue="Python.main1 (2)" />
         <item itemvalue="Python.main2 (2)" />
         <item itemvalue="Python.main1-v2" />
-        <item itemvalue="Python.main2 (1)" />
-        <item itemvalue="Python.main1 (1)" />
-        <item itemvalue="Python.main2" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1545505316955</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Working on 2018-9">
+      <created>1545505591885</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1545505591885</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -339,7 +361,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32997987" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32997987" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32997987" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32980132" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5018587" side_tool="true" weight="0.32980132" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49814126" weight="0.32980132" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -351,7 +373,8 @@
     <MESSAGE value="Split the input files" />
     <MESSAGE value="Completed 2018-6" />
     <MESSAGE value="Completed 2018-8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed 2018-8" />
+    <MESSAGE value="Working on 2018-9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on 2018-9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -422,7 +445,6 @@
     <entry file="file://$PROJECT_DIR$/2018-7/input.txt" />
     <entry file="file://$PROJECT_DIR$/2018-7/main1.py" />
     <entry file="file://$PROJECT_DIR$/2018-7/main2.py" />
-    <entry file="file://$PROJECT_DIR$/2018-8/main1-v1.py" />
     <entry file="file://$PROJECT_DIR$/2018-6/main2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -444,13 +466,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2018-9/input.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018-9/main1.py">
+    <entry file="file://$PROJECT_DIR$/2018-8/main1-v1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        <state>
+          <caret selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -458,6 +477,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="46" lean-forward="true" selection-start-column="46" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018-9/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="46" selection-start-column="40" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018-9/main1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018-9/output.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018-9/main2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2018-9/main2-v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
         </state>
       </provider>
     </entry>

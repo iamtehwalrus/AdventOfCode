@@ -22,13 +22,17 @@ for x, xline in enumerate(grid):
 squaresum = 0
 xsquare = 0
 ysquare = 0
-for x, xline in enumerate(grid):
-    for y, cell in enumerate(xline):
-        if x <= 297 and y <= 297:
-            tmpsum = np.sum(grid[x:x+3, y:y+3])
-            if tmpsum > squaresum:
-                squaresum = tmpsum
-                xsquare = x
-                ysquare = y
+szsquare = 1
 
-print(xsquare + 1, ysquare + 1, squaresum)
+for sz in range(1, min(xmax, ymax)):
+    for x, xline in enumerate(grid):
+        for y, cell in enumerate(xline):
+            if x <= xmax-sz and y <= ymax-sz:
+                tmpsum = np.sum(grid[x:x+sz, y:y+sz])
+                if tmpsum > squaresum:
+                    squaresum = tmpsum
+                    xsquare = x
+                    ysquare = y
+                    szsquare = sz
+
+print(xsquare + 1, ysquare + 1, szsquare, squaresum)

@@ -3,10 +3,11 @@ import re
 fpath = 'input.txt'
 contents = open(fpath,'r').read().splitlines()
 
-padnum = 30
+numpad = 200
+numgens = 150
 
 currentgen = re.search('(#|\.)+', contents[0]).group()
-currentgen = '.'*padnum + currentgen + '.'*padnum
+currentgen = '.' * numpad + currentgen + '.' * numpad
 
 patternlist = []
 replacelist = []
@@ -19,11 +20,13 @@ for line in contentsiter:
 
 def getsum(str):
     sum = 0
+    numplants = 0
     for i, c in enumerate(str):
-        i -= padnum
+        i -= numpad
         if c == '#':
             sum += i
-    return sum
+            numplants += 1
+    return sum, numplants
 
 def nextgen(currentgen):
     nextgen = list(currentgen)
@@ -37,7 +40,14 @@ def nextgen(currentgen):
     return nextgen
 
 
-for _ in range(20):
+for gen in range(numgens):
+    lastvalue = getsum(currentgen)
     currentgen = nextgen(currentgen)
+    thisvalue = getsum(currentgen)
 
-print(getsum(currentgen))
+    if lastvalue[1] == thisvalue[1] and thisvalue[0] == lastvalue[0] + lastvalue[1]:
+        break
+
+finalvalue = (50000000000 - (gen + 1)) * thisvalue[1] + thisvalue[0]
+
+print(finalvalue)
